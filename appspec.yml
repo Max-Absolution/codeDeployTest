@@ -2,7 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/html/
+    destination: /var/www/html
+    file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
@@ -16,4 +17,3 @@ hooks:
       timeout: 300
       runas: root
 
-      
