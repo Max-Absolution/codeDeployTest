@@ -5,7 +5,8 @@
 mkdir awsCodeCommitRepo
 git clone --mirror https://github.com/Max-Absolution/codeDeployTest.git awsCodeCommitRepo/
 cd awsCodeCommitRepo
-git push https://github.com/Max-Absolution/codeDeployTest.git --all
+git push https://github.com/Max-Absolution/codeDeployTest.git 
+git push https://git-codecommit.us-east-1.amazonaws.com/v1/repos/MyTestBlueGreenRepository
 
 ##From Local Repository
 ##This will push code from Local to Code Commit Repository
